@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://images.pexels.com/photos/29421579/pexels-photo-29421579.jpeg?auto=compress&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+.section-2{
+    
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://images.pexels.com/photos/29421580/pexels-photo-29421580/free-photo-of-colorful-bryggen-waterfront-in-bergen-norway.jpeg?auto=compress&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+   
+}
+.section-3{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://images.pexels.com/photos/3532542/pexels-photo-3532542.jpeg?auto=compress&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    
+}
+.section-4{
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.3)
+    ),
+    url("https://images.pexels.com/photos/1115816/pexels-photo-1115816.jpeg?auto=compress&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+p {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 5px #000;
+}
+
+@media (max-width: 768px) {
+    section{
+        background-attachment: scroll;
+        height: 70vh;
+    }
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 11px;
+    }
+}
